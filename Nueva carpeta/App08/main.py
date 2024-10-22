@@ -23,6 +23,7 @@ def main(page: ft.Page):
         Nivel9.pause()
 #funcion para reproducir
     def playIntro(e):
+        detener()
         Intro.play()
 
     def playNivel1(e):
